@@ -51,8 +51,7 @@ export default function RecipesList() {
     <Box>
       <Stack direction={{ xs: 'column', sm: 'row' }} alignItems={{ sm: 'center' }} justifyContent="space-between" spacing={2} mb={3}>
         <Stack direction="row" spacing={2} alignItems="center">
-          <Typography variant="h5">Recipes</Typography>
-          <Button variant="contained" onClick={() => navigate('/create')}>Create Recipe</Button>
+          <Typography variant="h5">List of Receipes</Typography>
         </Stack>
         <Stack direction="row" spacing={2} alignItems="center">
           <ToggleButtonGroup value={difficultyFilter} onChange={(_, v) => setDifficultyFilter(v)} aria-label="filter by difficulty" size="small">

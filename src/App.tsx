@@ -36,9 +36,9 @@ function App() {
             color="inherit"
             variant="outlined"
             onClick={() => navigate('/recipes')}
-            sx={{ ml: 1, borderColor: 'rgba(255,255,255,0.7)', '&:hover': { borderColor: '#fff' } }}
+            sx={{ ml: 3, borderColor: 'rgba(255,255,255,0.7)', '&:hover': { borderColor: '#fff' } }}
           >
-            Recipes
+            Show Recipes
           </Button>
           <Button
             color="inherit"
@@ -47,7 +47,7 @@ function App() {
             onClick={() => navigate('/create')}
             sx={{ ml: 1, borderColor: 'rgba(255,255,255,0.7)', '&:hover': { borderColor: '#fff' } }}
           >
-            Create
+            Create Recipe
           </Button>
         </Toolbar>
       </AppBar>
